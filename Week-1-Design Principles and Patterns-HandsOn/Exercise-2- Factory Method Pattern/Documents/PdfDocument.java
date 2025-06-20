@@ -1,5 +1,3 @@
-package documents;
-
 public class PdfDocument implements Document {
     @Override
     public void open() {
