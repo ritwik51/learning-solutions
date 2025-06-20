@@ -1,5 +1,3 @@
-package documents;
-
 public interface WordDocument impelments Document {
 	@Override
 	public void open() {
