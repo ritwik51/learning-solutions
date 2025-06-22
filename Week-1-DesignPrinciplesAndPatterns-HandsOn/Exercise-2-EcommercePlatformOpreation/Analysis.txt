@@ -1,0 +1,15 @@
+Big O Notation is a mathematical way to describe how the runtime of an algorithm grows relative to the input size, denoted as n. It provides an upper bound on the time or space complexity of an algorithm, especially useful when comparing algorithms or evaluating performance under scaling.
+
+Common Big O complexities:
+O(1): Constant time
+O(n): Linear time
+O(log n): Logarithmic time
+O(n²): Quadratic time
+Scenario--Description--Linear Search--Binary Search
+Best Case--First element is the match--O(1)--O(1)
+Average Case--Match is somewhere in the middle--O(n/2) → O(n)--O(log n)
+Worst Case--No match found or last element matched--O(n)--O(log n)
+
+
+
+We are selecting BINARY SEARCH because it offers significantly faster performance on large datasets. Since our application will be working with a large database, using binary search will ensure quicker search operations and better overall efficiency compared to linear search.
