@@ -1,0 +1,7 @@
+The recursive algorithm used for financial forecasting has a time complexity of O(n) and a space complexity of O(n) due to the function call stack. While it works well for small input sizes, it becomes inefficient and may lead to stack overflow for large values of n (years).
+
+To optimize the solution and avoid excessive computation, we can:
+
+Use an iterative approach to reduce space complexity to O(1).
+
+Apply the mathematical formula using Math.pow(), which calculates the future value in constant time O(1) and is the most efficient solution for large datasets.
