@@ -1,0 +1,10 @@
+SELECT 
+    CustomerID, 
+    Name, 
+    Balance,
+    CASE 
+        WHEN Balance > 10000 THEN 'TRUE' 
+        ELSE 'FALSE' 
+    END AS IsVIP
+FROM Customers;
+/

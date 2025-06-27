@@ -1,0 +1,25 @@
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class CalculatorTest {
+
+    @Test
+    public void testAddition() {
+        int a = 10;
+        int b = 5;
+        int result = a + b;
+        assertEquals(15, result);
+    }
+
+    @Test
+    public void testSubtraction() {
+        int a = 10;
+        int b = 3;
+        int result = a - b;
+        assertEquals(7, result);
+    }
+}
+
+
+
+*Green showed*
