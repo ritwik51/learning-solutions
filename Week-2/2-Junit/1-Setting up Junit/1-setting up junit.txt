@@ -1,0 +1,29 @@
+public class Main {
+
+    public static void main(String[] args) {
+        testAddition();
+        testSubtraction();
+    }
+
+    public static void testAddition() {
+        int a = 10;
+        int b = 5;
+        int result = a + b;
+        if (result == 15) {
+            System.out.println("testAddition passed");
+        } else {
+            System.out.println("testAddition failed: expected 15 but got " + result);
+        }
+    }
+
+    public static void testSubtraction() {
+        int a = 10;
+        int b = 3;
+        int result = a - b;
+        if (result == 7) {
+            System.out.println("testSubtraction passed");
+        } else {
+            System.out.println("testSubtraction failed: expected 7 but got " + result);
+        }
+    }
+}

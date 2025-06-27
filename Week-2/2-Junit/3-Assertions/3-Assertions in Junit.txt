@@ -1,0 +1,40 @@
+public class Main {
+
+    public static void main(String[] args) {
+        testAssertions();
+    }
+
+    public static void testAssertions() {
+        if (2 + 3 == 5) {
+            System.out.println("assertEquals passed");
+        } else {
+            System.out.println("assertEquals failed");
+        }
+
+        if (5 > 3) {
+            System.out.println("assertTrue passed");
+        } else {
+            System.out.println("assertTrue failed");
+        }
+
+        if (!(5 < 3)) {
+            System.out.println("assertFalse passed");
+        } else {
+            System.out.println("assertFalse failed");
+        }
+
+        Object obj = null;
+        if (obj == null) {
+            System.out.println("assertNull passed");
+        } else {
+            System.out.println("assertNull failed");
+        }
+
+        Object notNullObj = new Object();
+        if (notNullObj != null) {
+            System.out.println("assertNotNull passed");
+        } else {
+            System.out.println("assertNotNull failed");
+        }
+    }
+}
